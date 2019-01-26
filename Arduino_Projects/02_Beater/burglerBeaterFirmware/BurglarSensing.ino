@@ -1,4 +1,4 @@
-int PIR_SENSE_PIN = 8;
+#define PIR_SENSE_PIN 8
 
 void setupBurglarSensing() {
   pinMode(PIR_SENSE_PIN, INPUT);

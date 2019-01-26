@@ -13,10 +13,10 @@ void loop() {
   burglarSense = loopBurglarSensing();
 
   if(burglarSense == true) {
-    sendData('A');
+    sendData('T');
   }
   else {
-    sendData('Z');
+    sendData('F');
   }
 
   delay(500);
